@@ -9,6 +9,6 @@ use mhz19::MHZ19;
 
 fn main() {
     let mut mhz19 = MHZ19::open("/dev/ttyUSB0").unwrap();
-    println("CO₂ readout: {} ppm", mhz19.read().unwrap());
+    println!("CO₂ readout: {} ppm", mhz19.read().unwrap());
 }
 ```
