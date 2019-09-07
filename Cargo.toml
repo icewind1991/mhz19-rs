@@ -5,7 +5,9 @@ authors = ["Robin Appelman <robin@icewind.nl>"]
 edition = "2018"
 description = "Accessing MH-Z19 CO₂ sensor over serial bus"
 license = "MIT OR Apache-2.0"
+readme = "README.md"
 repository = "https://github.com/icewind1991/mhz19-rs"
+documentation = "https://docs.rs/mhz19/"
 
 [lib]
 name = "mhz19"
